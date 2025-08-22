@@ -85,7 +85,8 @@ Gunakan placeholder berikut dalam template:
 - `${tempat}` - Tempat pelaksanaan
 - `${tanggal}` - Tanggal kegiatan
 - `${waktu}` - Waktu pelaksanaan
-- `${nama1}`, `${jabatan1}` - Data pelaksana
+- `${pelaksana}` - Data pelaksana
+- `${nama_jabatan}` - Data pelaksana (Jika lebih dari 2 pelaksana)
 
 ## 🤝 Kontributor
 
@@ -120,3 +121,4 @@ Penggunaan di luar kepentingan resmi instansi pemerintah **tidak diperkenankan t
 - ❌ Penggunaan oleh pihak non-pemerintah tanpa izin resmi
 
 Untuk informasi lebih lanjut mengenai lisensi, silakan hubungi Bagian Hukum dan Hubungan Masyarakat BNN.
+
