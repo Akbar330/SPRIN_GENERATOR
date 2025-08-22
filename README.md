@@ -96,22 +96,22 @@ Gunakan placeholder berikut dalam template:
 ## 📞 Dukungan
 
 Untuk pertanyaan atau masalah teknis, silakan hubungi:
-- Email: admin@bnn.go.id
-- Website: [https://bnn.go.id](https://bnn.go.id)
+- Email: bnnkota_bandung@bnn.go.id / bnnkbdg@gmail.com
+- Website: [[https://bandungkota.bnn.go.id](https://bandungkota.bnn.go.id)
 
 ---
 
 ## 📜 Lisensi
 
-**Lisensi Badan Narkotika Nasional (BNN)**
+**Lisensi Badan Narkotika Nasional Kota Bandung (BNNK-Bandung)**
 
-Hak cipta © **Badan Narkotika Nasional Republik Indonesia dan GHDBH Squad**.
+Hak cipta © **Badan Narkotika Nasional Kota Bandung dan GHDBH Squad**.
 
-Lisensi ini mengikuti ketentuan **Badan Narkotika Nasional (BNN)**.
+Lisensi ini mengikuti ketentuan **Badan Narkotika Nasional Kota Bandung (BNNK-Bandung)**.
 
 Semua penggunaan, distribusi, maupun modifikasi perangkat lunak ini **hanya diperbolehkan untuk kepentingan internal dan resmi instansi pemerintah Republik Indonesia**, khususnya dalam lingkup tugas BNN.
 
-Penggunaan di luar kepentingan resmi instansi pemerintah **tidak diperkenankan tanpa izin tertulis dari BNN**.
+Penggunaan di luar kepentingan resmi instansi pemerintah **tidak diperkenankan tanpa izin tertulis dari BNNK-Bandung**.
 
 **Ketentuan Penggunaan:**
 - ✅ Penggunaan internal instansi pemerintah
@@ -120,5 +120,6 @@ Penggunaan di luar kepentingan resmi instansi pemerintah **tidak diperkenankan t
 - ❌ Distribusi untuk kepentingan pribadi
 - ❌ Penggunaan oleh pihak non-pemerintah tanpa izin resmi
 
-Untuk informasi lebih lanjut mengenai lisensi, silakan hubungi Bagian Hukum dan Hubungan Masyarakat BNN.
+Untuk informasi lebih lanjut mengenai lisensi, silakan hubungi Bagian Hukum dan Hubungan Masyarakat BNNK-Bandung.
+
 
