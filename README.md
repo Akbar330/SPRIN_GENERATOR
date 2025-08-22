@@ -1,97 +1,122 @@
-Siap 👍
-Saya buatkan **README.md** untuk project **SPRIN Generator** ini. Saya sertakan deskripsi, fitur, cara pakai, teknologi, dan juga lisensi dengan format **Lisensi Badan Narkotika Nasional (BNN)** yang khas instansi pemerintah.
-
-Berikut isi file **`README.md`**:
-
-```markdown
 # 📄 SPRIN Generator
 
 Aplikasi sederhana untuk menghasilkan **Surat Perintah (SPRIN)** secara otomatis dalam format **Word (.docx)**.  
 Dibuat untuk mempermudah administrasi, terutama dalam pembuatan surat tugas yang berulang dengan format seragam.
 
----
-
 ## 🚀 Fitur Utama
-- Input data SPRIN melalui form (Nomor, Kegiatan, Dasar, Tempat, Hari/Tanggal, Waktu).
-- Mendukung pelaksana **jumlah fleksibel**:
-  - 1–2 orang → otomatis masuk ke template standar.
-  - >2 orang → otomatis dibuatkan tabel rapi.
-- Format **tanggal & waktu** otomatis.
-- File hasil berupa **`.docx`** siap cetak.
-- Nama file otomatis aman (tanpa karakter ilegal).
-- Template **bisa disesuaikan** sesuai kebutuhan instansi.
 
----
+- **Form Input Lengkap**: Input data SPRIN melalui form (Nomor, Kegiatan, Dasar, Tempat, Hari/Tanggal, Waktu)
+- **Pelaksana Fleksibel**: Mendukung jumlah pelaksana yang dapat disesuaikan
+  - 1–2 orang → otomatis masuk ke template standar
+  - \>2 orang → otomatis dibuatkan tabel rapi
+- **Format Otomatis**: Format tanggal & waktu otomatis terstandarisasi
+- **Output Siap Cetak**: File hasil berupa `.docx` siap cetak dan distribusi
+- **Nama File Aman**: Nama file otomatis aman (tanpa karakter ilegal)
+- **Template Customizable**: Template bisa disesuaikan sesuai kebutuhan instansi
 
 ## 🛠️ Teknologi
+
 - **PHP 8+**
 - [PHPWord](https://phpoffice.github.io/PhpWord/) (TemplateProcessor)
-- **Bootstrap (opsional)** untuk tampilan form input
+- **HTML5 & CSS3** untuk tampilan form input responsif
 
----
+## 📂 Struktur Project
 
-## 📂 Struktur
+```
+/sprin-generator
+├── /vendor/             # Dependencies PHPWord
+├── index.php            # Form input SPRIN
+├── generate.php         # Logika generate Word
+├── template.docx        # Template standar
+├── template_multi.docx  # Template tabel untuk >2 pelaksana
+├── README.md
+└── composer.json
 ```
 
-/sprin-generator
-│── /vendor
-│── index.php          # Form input SPRIN
-│── generate.php       # Logika generate Word
-│── template.docx      # Template standar
-│── template\_multi.docx# Template tabel untuk >2 pelaksana
-│── README.md
-│── composer.json
+## ⚙️ Cara Instalasi & Menjalankan
 
-````
+### 1. Clone Repository
+```bash
+git clone https://github.com/username/sprin-generator.git
+cd sprin-generator
+```
 
----
+### 2. Install Dependencies
+```bash
+composer install
+```
 
-## ⚙️ Cara Menjalankan
-1. Clone repository ini
-   ```bash
-   git clone https://github.com/username/sprin-generator.git
-   cd sprin-generator
-````
+### 3. Persiapan Template
+Pastikan template Word tersedia:
+- `template.docx` - Template untuk 1-2 pelaksana
+- `template_multi.docx` - Template untuk >2 pelaksana
 
-2. Install dependency
+### 4. Jalankan Server
+```bash
+php -S localhost:8000
+```
 
-   ```bash
-   composer install
-   ```
-3. Pastikan template Word tersedia (`template.docx` & `template_multi.docx`).
-4. Jalankan di server lokal (XAMPP/Laragon/Apache bawaan PHP):
+### 5. Akses Aplikasi
+Buka di browser: `http://localhost:8000/index.php`
 
-   ```bash
-   php -S localhost:8000
-   ```
-5. Buka di browser:
+### 6. Cara Penggunaan
+1. Isi form data SPRIN sesuai kebutuhan
+2. Pilih jumlah pelaksana dan isi data masing-masing
+3. Klik **Generate SPRIN**
+4. File `SPRIN.docx` akan otomatis terunduh
 
-   ```
-   http://localhost:8000/index.php
-   ```
-6. Isi form → klik **Generate** → file **SPRIN.docx** otomatis terunduh.
+## 📋 Persyaratan Sistem
+
+- **PHP**: versi 8.0 atau lebih tinggi
+- **Composer**: untuk manajemen dependencies
+- **Web Server**: Apache, Nginx, atau PHP built-in server
+- **Extensions**: php-zip, php-xml (biasanya sudah tersedia)
+
+## 🔧 Konfigurasi
+
+Template Word dapat disesuaikan dengan mengedit:
+- `template.docx` - untuk format standar
+- `template_multi.docx` - untuk format dengan tabel pelaksana
+
+Gunakan placeholder berikut dalam template:
+- `${nomor}` - Nomor SPRIN
+- `${kegiatan}` - Nama kegiatan
+- `${dasar}` - Dasar kegiatan
+- `${tempat}` - Tempat pelaksanaan
+- `${tanggal}` - Tanggal kegiatan
+- `${waktu}` - Waktu pelaksanaan
+- `${nama1}`, `${jabatan1}` - Data pelaksana
+
+## 🤝 Kontributor
+
+- **Akbar Jhon & Srulzz** – Developer Utama
+- **Tim Administrasi & IT BNN** – Dukungan & Testing
+
+## 📞 Dukungan
+
+Untuk pertanyaan atau masalah teknis, silakan hubungi:
+- Email: admin@bnn.go.id
+- Website: [https://bnn.go.id](https://bnn.go.id)
 
 ---
 
 ## 📜 Lisensi
 
-Lisensi ini mengikuti **Badan Narkotika Nasional (BNN)**.
+**Lisensi Badan Narkotika Nasional (BNN)**
+
+Hak cipta © **Badan Narkotika Nasional Republik Indonesia dan GHDBH Squad**.
+
+Lisensi ini mengikuti ketentuan **Badan Narkotika Nasional (BNN)**.
+
 Semua penggunaan, distribusi, maupun modifikasi perangkat lunak ini **hanya diperbolehkan untuk kepentingan internal dan resmi instansi pemerintah Republik Indonesia**, khususnya dalam lingkup tugas BNN.
 
-Hak cipta © **Badan Narkotika Nasional Republik Indonesia Dan GHDBH Squad**.
 Penggunaan di luar kepentingan resmi instansi pemerintah **tidak diperkenankan tanpa izin tertulis dari BNN**.
 
----
+**Ketentuan Penggunaan:**
+- ✅ Penggunaan internal instansi pemerintah
+- ✅ Modifikasi untuk keperluan dinas
+- ❌ Penggunaan komersial tanpa izin
+- ❌ Distribusi untuk kepentingan pribadi
+- ❌ Penggunaan oleh pihak non-pemerintah tanpa izin resmi
 
-## ✍️ Kontributor
-
-* **Akbar Jhon & Srulzz** – Developer utama
-* Dukungan: Tim Administrasi & IT BNN
-
----
-
-```
-
----
-
-```
+Untuk informasi lebih lanjut mengenai lisensi, silakan hubungi Bagian Hukum dan Hubungan Masyarakat BNN.
