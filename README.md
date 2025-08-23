@@ -103,11 +103,11 @@ Untuk pertanyaan atau masalah teknis, silakan hubungi:
 
 ## 📜 Lisensi
 
-**Lisensi Badan Narkotika Nasional Kota Bandung (BNNK-Bandung)**
+**Lisensi Badan Narkotika Nasional Kota Bandung (BNNK-Bandung) & Bangsa Tech Dev**
 
-Hak cipta © **Badan Narkotika Nasional Kota Bandung dan GHDBH Squad**.
+Hak cipta © **Badan Narkotika Nasional Kota Bandung dan Bangsa Tech Dev**.
 
-Lisensi ini mengikuti ketentuan **Badan Narkotika Nasional Kota Bandung (BNNK-Bandung)**.
+Lisensi ini mengikuti ketentuan **Badan Narkotika Nasional Kota Bandung (BNNK-Bandung) & Bangsa Tech Dev**.
 
 Semua penggunaan, distribusi, maupun modifikasi perangkat lunak ini **hanya diperbolehkan untuk kepentingan internal dan resmi instansi pemerintah Republik Indonesia**, khususnya dalam lingkup tugas BNN.
 
@@ -121,5 +121,6 @@ Penggunaan di luar kepentingan resmi instansi pemerintah **tidak diperkenankan t
 - ❌ Penggunaan oleh pihak non-pemerintah tanpa izin resmi
 
 Untuk informasi lebih lanjut mengenai lisensi, silakan hubungi Bagian Hukum dan Hubungan Masyarakat BNNK-Bandung.
+
 
 
